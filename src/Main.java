@@ -31,7 +31,7 @@ public class Main {
         System.out.println("methode to string :"+ myZoo.toString());
        System.out.println( myZoo.addAnimal(lion));
         System.out.println( myZoo.addAnimal(zebra));
-/*
+
         myZoo.displayZooAnimals();
         System.out.println("-------------search--------------------");
         int isExist = myZoo.searchAnimal(lion);
@@ -40,7 +40,7 @@ public class Main {
             System.out.println("Animal found at index: " + isExist);
         } else {
             System.out.println("Animal not found.");
-        }  */
+        }
 
 
 //add animal plus optimale (instruction 12 )
@@ -62,6 +62,10 @@ public class Main {
         }
 
         myZoo.displayZooAnimals();
+
+        System.out.println("----------comparer--------");
+        compareZoo
+
 
     }
 
